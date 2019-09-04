@@ -6,7 +6,7 @@ subtractArray = (array) => {
 	return array.reduce((a,b) => a - b)
 }
 
-module.exports {
-	addArray: addArray,
-	subtractArray: subtractArray
+module.exports = {
+	add: addArray,
+	subtract: subtractArray
 }
